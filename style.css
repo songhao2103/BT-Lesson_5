@@ -1,0 +1,985 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.main_content {
+  width: 1440px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+/* =========header============ */
+.header .body {
+  padding-top: 50px;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .body .nav {
+  display: flex;
+  gap: 48px;
+}
+
+.header .nav .item {
+  color: #1a2434;
+  font-family: Outfit;
+  font-size: 2rem;
+}
+
+.header .nav .item:hover {
+  text-shadow: 1px 1px 2px #000;
+}
+
+.header .body .search {
+  display: flex;
+  align-items: center;
+}
+.header .body .search input {
+  margin-left: 24px;
+  display: flex;
+  width: 320px;
+  padding: 16px 80px 16px 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #ebeff6;
+}
+
+/* =========================main====================== */
+/* ========================start========================== */
+.main {
+  margin-top: 80px;
+}
+.main .start_learning {
+  display: flex;
+}
+.main .start_learning .content {
+  width: 624px;
+}
+.main .start_learning .content .title {
+  color: #1a2434;
+  font-family: "Plus Jakarta Sans";
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 72px */
+}
+
+.main .start_learning .content .desc1 {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  line-height: 180%; /* 36px */
+  letter-spacing: 0.4px;
+  margin-top: 24px;
+}
+
+.main .start_learning .content .student {
+  margin-top: 24px;
+  border-left: 4px solid #a4074d;
+}
+
+.main .start_learning .content .student .desc {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.4px;
+  margin-left: 40px;
+}
+.main .start_learning .content .student .member {
+  display: flex;
+  margin-left: 40px;
+}
+
+.main .start_learning .content .student .ava {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 4px solid wheat;
+  object-fit: cover;
+  margin-left: -25px;
+}
+.main .start_learning .content .student .ava.ava1 {
+  margin-left: 0;
+}
+
+.main .start_learning .content .student .quantity {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 4px solid wheat;
+  background-color: #a4074d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -25px;
+}
+.main .start_learning .content .student .quantity p {
+  color: wheat;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%; /* 28.8px */
+  letter-spacing: 0.32px;
+}
+
+.main .start_learning .content .learn {
+  margin-top: 40px;
+  display: flex;
+  border: none;
+}
+
+.main .start_learning .content .learn .button {
+  display: flex;
+  padding: 24px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  background: #eee5e5;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.main .start_learning .content .learn .button p {
+  color: black;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0.48px;
+}
+
+.main .start_learning .content .learn .button:hover {
+  box-shadow: 3px 3px 8px black;
+  background-color: #a4074d;
+}
+.main .start_learning .content .learn .button:hover p {
+  color: #eee5e5;
+}
+
+.start_learning .content .desc2 {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.4px;
+  margin-top: 40px;
+}
+
+.start_learning .content .web {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.start_learning .media {
+  display: flex;
+  position: relative;
+  width: 405px;
+  height: 666px;
+  margin-left: 250px;
+}
+
+.start_learning .media .images {
+  width: 405px;
+  height: 666px;
+  border-radius: 24px;
+}
+
+.start_learning .media .note {
+  position: absolute;
+  left: -150px;
+  top: 117px;
+  width: 296px;
+  padding: 16px 32px;
+  background-color: white;
+  border-radius: 10%;
+}
+
+.start_learning .media .note .desc {
+  color: black;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.start_learning .media .ava {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.start_learning .media .instructor {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.start_learning .media .info .name {
+  color: #1a2434;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 140%; /* 22.4px */
+}
+
+.start_learning .media .info .job {
+  color: #575455;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 140%; /* 19.6px */
+}
+
+/* ===========experience============== */
+
+.experience {
+  margin-top: 160px;
+  padding-bottom: 80px;
+}
+
+.experience .top .desc {
+  text-align: center;
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2.4rem;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0.48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience .top .desc:before {
+  content: "";
+  width: 64px;
+  height: 4px;
+  background-color: #a4074d;
+  margin-right: 24px;
+}
+.experience .top .title {
+  color: #1a2434;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 120%; /* 43.2px */
+}
+
+.experience .list {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience .list .item {
+  width: 288px;
+}
+.experience .list .item .title {
+  margin-top: 24px;
+  color: #1a2434;
+  font-family: "Plus Jakarta Sans";
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 120%; /* 28.8px */
+}
+
+.experience .list .item .desc {
+  margin-top: 24px;
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2rem;
+  line-height: 180%; /* 36px */
+  letter-spacing: 0.4px;
+}
+
+.experience .list .item .learn {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.experience .list .item .learn .learn_more {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.4px;
+  margin-right: 16px;
+}
+
+/* =================about us================= */
+
+.about_us .top {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_us .content {
+  width: 682px;
+}
+.about_us .content .desc1 {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0.48px;
+}
+
+.about_us .content .title {
+  margin-top: 16px;
+  color: #1a2434;
+  font-family: "Plus Jakarta Sans";
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 120%; /* 43.2px */
+}
+
+.about_us .content .desc2 {
+  margin-top: 40px;
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2rem;
+  line-height: 180%; /* 36px */
+  letter-spacing: 0.4px;
+}
+
+.about_us .content .learn {
+  margin-top: 16px;
+  display: flex;
+  display: flex;
+  width: 307px;
+  height: 72px;
+  padding: 24px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 16px;
+  background: wheat;
+}
+
+.about_us .content .learn .learn_more {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.4px;
+}
+
+.about_us .content .learn:hover {
+  box-shadow: 3px 3px 8px black;
+  background-color: #a4074d;
+}
+.about_us .content .learn:hover .learn_more {
+  color: wheat;
+}
+
+.about_us .bottom {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_us .bottom .item {
+  text-align: center;
+}
+.about_us .bottom .item .desc1 {
+  color: #1a2434;
+  font-family: "Plus Jakarta Sans";
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 120%; /* 76.8px */
+}
+
+.about_us .bottom .item .desc1 strong {
+  color: #a4074d;
+}
+
+.about_us .bottom .item .desc2 {
+  margin-top: 16px;
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2rem;
+  line-height: 180%; /* 36px */
+  letter-spacing: 0.4px;
+}
+
+/* ===========our class=============== */
+.our_class {
+  margin-top: 184px;
+  text-align: center;
+}
+.our_class .desc {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2.4rem;
+  font-style: normal;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0.48px;
+}
+
+.our_class .title {
+  margin-top: 16px;
+  color: #1a2434;
+  font-family: "Plus Jakarta Sans";
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 120%; /* 43.2px */
+}
+
+.our_class .bar {
+  display: inline-flex;
+  padding: 10px;
+  margin-top: 80px;
+  background: #f4f4f4;
+  border-radius: 100px;
+}
+
+.our_class .bar .item {
+  width: 230px;
+  padding: 18px 10px;
+  text-align: center;
+  color: #1e2b33;
+  font-family: Inter;
+  font-size: 2rem;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0.48px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+.our_class .bar .item:hover {
+  box-shadow: 3px 3px 8px black;
+  background-color: #a4074d;
+  color: #f4f4f4;
+}
+
+/* +==============list class=============== */
+.list_class {
+  margin-top: 80px;
+}
+
+.list_class .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list_class .list .item {
+  width: 260px;
+}
+
+.list_class .list .item .image img {
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 16px;
+}
+
+.list_class .list .item .image img:hover {
+  box-shadow: 3px 3px 8px black;
+}
+.list_class .list .item .title {
+  color: #1e2b33;
+  font-family: "Plus Jakarta Sans";
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 140%; /* 33.6px */
+}
+
+.list_class .list .item .title:hover {
+  text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+.list_class .list .item .info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.list_class .list .item .info .date,
+.list_class .list .item .info .lesson {
+  display: flex;
+}
+.list_class .list .item .info .date .desc,
+.list_class .list .item .info .lesson .desc {
+  color: #1e2b33;
+  font-family: Inter;
+  font-size: 1.4rem;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: 0.28px;
+  margin-left: 8px;
+}
+
+.list_class .list .item .bot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.list_class .list .item .bot .price {
+  color: #1e2b33;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.4px;
+}
+
+.list_class .list .item .bot .ratting {
+  display: flex;
+}
+
+.list_class .list .item .bot .ratting .desc {
+  color: #1e2b33;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.4px;
+  margin-left: 4px;
+}
+
+.list_class .button {
+  display: flex;
+  width: 300px;
+  padding: 24px 0;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  border-radius: 16px;
+  margin-top: 80px;
+}
+
+.list_class .button .desc {
+  color: #1e2b33;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+  margin-right: 16px;
+}
+
+.list_class .button .icon_next {
+  width: 20px;
+  height: 20px;
+  background-color: #1e2b33;
+  clip-path: polygon(
+    0 42%,
+    70% 42%,
+    50% 25%,
+    50% 0,
+    100% 50%,
+    50% 100%,
+    50% 75%,
+    70% 58%,
+    0 58%
+  );
+  border-radius: 100px;
+}
+
+.list_class .button:hover {
+  box-shadow: 3px 3px 8px black;
+  background-color: #a4074d;
+}
+
+.list_class .button:hover .desc {
+  color: white;
+}
+.list_class .button:hover .icon_next {
+  background-color: #fff;
+}
+
+/* ==============student============ */
+
+.student {
+  padding: 60px 0;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.student .desc {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2.4rem;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0.48px;
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.student .desc::before {
+  content: "";
+  width: 64px;
+  height: 4px;
+  background-color: #a4074d;
+}
+
+.student .title {
+  color: #1a2434;
+  font-family: "Plus Jakarta Sans";
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 120%; /* 43.2px */
+  margin-top: 16px;
+}
+
+.student .list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.student .list .item {
+  width: 450px;
+  padding: 40px;
+  background-color: rgb(240, 236, 230);
+  border-radius: 30px;
+}
+
+.student .list .item:hover {
+  box-shadow: 3px 3px 8px black;
+  padding: 45px;
+}
+.student .list .info {
+  display: flex;
+  gap: 16px;
+}
+.student .list .item .avatar {
+  width: 91px;
+  height: 91px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.student .list .item .introduce .name {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.4px;
+  text-align: left;
+}
+
+.student .list .item .introduce .job {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: 0.32px;
+  margin-top: 8px;
+}
+
+.student .list .item .introduce .ratting {
+  display: flex;
+  margin-top: 16px;
+  gap: 4px;
+  align-items: center;
+}
+.student .list .item .introduce .ratting .desc_ratting {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.4px;
+}
+
+.student .list .desc_info {
+  text-align: left;
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 1.6rem;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: 0.32px;
+  margin-top: 16px;
+}
+
+/* ==========View============ */
+.blog {
+  padding: 80px 0;
+  margin-top: 80px;
+  text-align: center;
+}
+.blog .desc {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2.4rem;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0.48px;
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.blog .desc::before {
+  content: "";
+  width: 64px;
+  height: 4px;
+  background-color: #a4074d;
+}
+
+.blog .title {
+  margin-top: 16px;
+  color: #1a2434;
+  font-family: "Plus Jakarta Sans";
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 120%; /* 43.2px */
+}
+
+.blog .list {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.blog .list .item {
+  width: 450px;
+  padding: 20px 10px;
+  background-color: rgb(240, 236, 230);
+  border-radius: 30px;
+}
+
+.blog .list .item .image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.blog .list .item .bar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.blog .list .item .bar .desc_bar {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 1.4rem;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: 0.28px;
+}
+
+.blog .list .item .bar .bar_child {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.blog .list .item .desc_item {
+  margin-top: 24px;
+  text-align: left;
+  color: #1a2434;
+  font-family: "Plus Jakarta Sans";
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 140%; /* 33.6px */
+}
+
+.blog .item .read {
+  margin-top: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.blog .item .read:hover .desc_read {
+  text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+.blog .item .read .desc_read {
+  color: #1a2434;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.4px;
+}
+
+.blog .item .read .icon_next {
+  width: 20px;
+  height: 20px;
+  background-color: #1e2b33;
+  clip-path: polygon(
+    0 42%,
+    70% 42%,
+    50% 25%,
+    50% 0,
+    100% 50%,
+    50% 100%,
+    50% 75%,
+    70% 58%,
+    0 58%
+  );
+}
+
+.blog .view {
+  margin-top: 80px;
+  display: inline-flex;
+  padding: 24px 80px;
+  align-items: center;
+  gap: 16px;
+  background-color: wheat;
+  border-radius: 20px;
+}
+
+.blog .view:hover {
+  box-shadow: 3px 3px 8px black;
+  background-color: #a4074d;
+}
+.blog .view:hover .icon_next_view {
+  background-color: #fff;
+}
+.blog .view:hover .desc_view {
+  color: white;
+}
+
+.blog .view .icon_next_view {
+  width: 20px;
+  height: 20px;
+  background-color: #1e2b33;
+  clip-path: polygon(
+    0 42%,
+    70% 42%,
+    50% 25%,
+    50% 0,
+    100% 50%,
+    50% 100%,
+    50% 75%,
+    70% 58%,
+    0 58%
+  );
+}
+
+.blog .view .desc_view {
+  color: #1e2b33;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.4px;
+}
+
+/* ================Jion================= */
+.join {
+  display: flex;
+  padding: 80px;
+  align-items: center;
+  gap: 160px;
+  background-color: #a4074d;
+}
+.join .desc {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 120%; /* 43.2px */
+}
+
+.join form {
+  display: flex;
+  padding: 8px 8px 8px 40px;
+  background-color: #f3d0d7;
+  border-radius: 16px;
+}
+
+.join form input {
+  margin-left: 8px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.join form button {
+  border: none;
+  width: 150px;
+  padding: 15px 0;
+  color: white;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.4px;
+  background-color: #1a2434;
+  border-radius: 16px;
+  margin-left: 50px;
+}
+
+.join form button:hover {
+  border-left-color: #000;
+  box-shadow: 1px 1px 3px black;
+  background-color: #a4074d;
+  color: #1a2434;
+}
+/* ======================footer================= */
+
+.footer .main_content .body {
+  padding: 80px;
+  background-color: #1a2434;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .main_content .body .item1 {
+  width: 350px;
+}
+
+.footer .main_content .body .item1 .logo {
+  display: flex;
+  gap: 8px;
+}
+.footer .main_content .body .item .title {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 2.7rem;
+  font-weight: 600;
+  line-height: 140%; /* 37.8px */
+}
+.footer .main_content .body .item .desc {
+  color: #fff;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 180%; /* 36px */
+  letter-spacing: 0.4px;
+  opacity: 0.5;
+  margin-top: 16px;
+}
+.footer .main_content .body .item a {
+  display: block;
+}
+
+.footer .main_content .body .link {
+  display: flex;
+  gap: 80px;
+}
+
+.footer .main_content .body .item4 .list_icon {
+  display: flex;
+  gap: 8px;
+}
